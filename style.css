@@ -35,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -43,13 +43,13 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list, 
 .subheading {
-  list-style:none;
+  list-style: none;
 }
 
 input {
@@ -142,7 +142,7 @@ li > label {
 }
 
 li > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .remove {
@@ -165,14 +165,14 @@ li > input[type="text"] {
 /* Edit Task */
 
 .input-text {
-  display:none
+  display: none;
 }
 
 ul li.editMode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 ul li.editMode label {
-  display:none;
+  display: none;
 }
